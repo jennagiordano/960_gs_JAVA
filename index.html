@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<head>
+  <!--Link to my normal stylesheet -->
+  <link href="style/style.css" type="text/css" rel="stylesheet">
+
+  <!--Link to the 960 grid stylesheet-->
+  <link href="style/960_12_col.css" type="text/css" rel="stylesheet">
+
+  <!-- add javascript file -->
+    <script type="text/javascript" src="scripts/script.js"></script>
+
+  <title>960_gs Homework</title>
+</head>
+
+<body id="hello">
+
+<!-- header of page -->
+  <h1>#locations</h1>
+
+  <!-- dropdown menu class -->
+  <div class="dropdown">
+    <!-- set dropdown menu as image -->
+    <img class="photos" id="earth" src="images/earth.jpg">
+    <!-- dropdown content class -->
+    <div class="dropdown-content">
+      <!-- dropdown menu content -->
+      <!-- each call function to change background color on click -->
+      <li><a href="#rainforest" onclick="changeForest()">rainforest</a></li>
+      <li><a href="#beach" onclick="changeBeach()">beach</a></li>
+      <li><a href="#desert" onclick="changeDesert()">desert</a></li>
+      <li><a href="#mountains" onclick="changeMountains()">mountains</a></li>
+    </div>
+  </div>
+      
+  <!-- clearfix hax -->
+  <div id="clearfix"></div>
+
+  <!--container_12 sets up the entire div for use with 960 grid-->
+  <div class="container_12">
+
+    <!-- header of first row of pictures -->
+    <h2 id="rColor">#rainforest</h2>
+
+    <!-- grid 4, 3 pictures per row, images in image folder -->
+    <div class="grid_4" id="rainforest1">
+     <img class="photos" src="images/rainforest1.jpg">
+    </div>
+
+   <div class="grid_4">
+    <img class="photos" src="images/rainforest2.jpg">
+   </div>
+
+   <div class="grid_4">
+    <img class="photos" src="images/rainforest3.jpg">
+   </div>
+
+
+
+   <!-- header of first row of pictures -->
+  <h2 id="bColor">#beach</h2>
+
+  <div class="grid_4" id="beach">
+   <img class="photos" src="images/beach1.jpg">
+ </div>
+
+ <div class="grid_4">
+  <img class="photos" src="images/beach2.jpg">
+</div>
+
+<div class="grid_4">
+  <img class="photos" src="images/beach3.jpg">
+</div>
+
+
+<!-- header of first row of pictures -->
+<h2 id="dColor">#desert</h2>
+
+<div class="grid_4" id="desert">
+ <img class="photos" src="images/desert1.jpg">
+</div>
+
+<div class="grid_4">
+  <img class="photos" src="images/desert2.jpg">
+</div>
+
+<div class="grid_4">
+  <img class="photos" src="images/desert3.jpg">
+</div>
+
+
+<!-- header of first row of pictures -->
+<h2 id="mColor">#mountains</h2>
+
+<div class="grid_4" id="mountains">
+ <img class="photos" src="images/mountains1.jpg">
+</div>
+
+<div class="grid_4">
+  <img class="photos" src="images/mountains2.jpg">
+</div>
+
+<div class="grid_4">
+  <img class="photos" src="images/mountains3.jpg">
+</div>
+
+
+</div>
+
+<div id="scroll" onclick="scrollTop()"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/*set font for page*/
+body{
+    font-family: Tahoma;
+    background-color: lightyellow;
+}
+
+/*set background color of container*/
+/*set font color within container*/
+/*align text to center*/
+/*set font size*/
+/*set line height (determines space between rows)*/
+/*set height of container*/
+.container_12 {
+    background: #ededed;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 200px;
+    height: 100%;
+}
+
+/*set width and height of photos*/
+.photos {
+    width: 100%;
+    height: 200px;
+    border-radius: 50px;
+}
+
+#earth {
+    border-radius: 100%;
+}
+
+/*set header 1 to left side of page*/
+h1{
+    text-align: left;
+}
+
+/*set header 2 font color white*/
+/*set width and height*/
+h2 {
+    color: white;
+    width: 100%;
+    height: 10px;
+}
+
+/*set dropdown menu as position relative*/
+/*set display to center*/
+/*width of menu icon 250px*/
+/*move menu to the center with margin-left*/
+.dropdown {
+    position: relative;
+    display: center;
+    width: 250px;
+    margin-left: 40%;
+}
+
+/*remove bullet points from list elements in menu bar*/
+li{
+    list-style: none;
+}
+
+/*set display none so menu items not seen until hovered over icon*/
+/* set position absolute*/
+/*color of dropdown menu whitish-grey*/
+/*set width of menu*/
+/*set shadow of menu*/
+/*set padding and z index*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+/*set hover display*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*clearfix hack to add space between earth icon and images*/
+#clearfix {
+    height: 50px;
+    clear: both;
+}
